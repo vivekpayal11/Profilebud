@@ -1,0 +1,133 @@
+.logo {
+  width: 283px;
+  height: 65px;
+  opacity: 1;
+}
+
+.checkoutLogo {
+  width: 61px;
+  height: 34px;
+  opacity: 1;
+}
+
+.content1 {
+  margin: auto !important;
+    width: 70%;
+    max-width: 654px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 35px;
+  font-family: "Montserrat";
+  font-weight: 800;
+  padding-top: 100px;
+}
+
+.content2 {
+  margin: auto !important;
+  width: 70%;
+  max-width: 654px;
+  text-align: center;  
+  color: #707070;
+  font-size: 35px;
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+.getlead {
+
+  height: 134px;
+ 
+}
+
+.homepage {
+  background-color: #0f0f10;
+  max-height: max-content;
+  height: 100%;
+  max-width: none;
+  padding-bottom: 200px;
+}
+
+.card {
+  border-radius: 25px !important;
+  background: #060606 !important;
+  box-shadow: 7px 7px 14px #0e0e0f, -7px -7px 14px #36363b !important;
+  color: white;
+}
+
+.btn {
+  background: transparent linear-gradient(288deg, #1f2021 0%, #0c0c0c 100%) 0%
+    0% no-repeat padding-box !important;
+  box-shadow: -10px -10px 40px #211e1e !important;
+  border-radius: 30px !important;
+  opacity: 0.9;
+  color: white !important;
+}
+
+.card2 {
+  padding-top: 60px;
+}
+
+.card-title {
+  font-size: 35px;
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+.contentCard {
+  padding: 36px !important;
+  min-height: 256px;
+  max-width: 500px;
+}
+
+.cardCircle {
+  height: 21px;
+  width: 21px;
+  border-radius: 258px;
+  background: linear-gradient(145deg, #e67300, #ff8900);
+}
+
+.contentCardTitle {
+  display: inline;
+  padding-left: 25px;
+}
+
+.bottomTest {
+  text-align: left;
+  font: normal normal normal 22px/27px Montserrat;
+  color: #707070;
+}
+
+.noOfAccountRow {
+  margin-top: 120px !important;
+}
+
+.apiCard {
+  min-height: 406px;
+  padding: 35px;
+}
+
+.apiCardTitle{
+  padding: 13px;
+}
+ 
+.apiCardBody{
+  padding: 23px;
+}
+
+.getbtn{
+  margin: 68px 0 68px 0 !important;
+}
+
+.dollar{
+  font: normal normal bold 125px/152px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+padding: 55px 0 0 55px;
+}
+
+.numberbtn{
+  border-radius: 44px;
+    background: #464544;
+}
