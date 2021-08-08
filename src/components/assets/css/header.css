@@ -1,19 +1,19 @@
 .logo {
   width: 283px;
-  height: 65px;
+  height: 90px;
   opacity: 1;
 }
 
 .checkoutLogo {
   width: 61px;
-  height: 34px;
+  height: 45px;
   opacity: 1;
 }
 
 .content1 {
   margin: auto !important;
-    width: 70%;
-    max-width: 654px;
+  width: 70%;
+  max-width: 654px;
   text-align: center;
   letter-spacing: 0px;
   color: #ffffff;
@@ -28,7 +28,7 @@
   margin: auto !important;
   width: 70%;
   max-width: 654px;
-  text-align: center;  
+  text-align: center;
   color: #707070;
   font-size: 35px;
   font-family: "Montserrat";
@@ -36,9 +36,7 @@
 }
 
 .getlead {
-
   height: 134px;
- 
 }
 
 .homepage {
@@ -108,26 +106,67 @@
   padding: 35px;
 }
 
-.apiCardTitle{
+.apiCardTitle {
   padding: 13px;
 }
- 
-.apiCardBody{
+
+.apiCardBody {
   padding: 23px;
 }
 
-.getbtn{
+.getbtn {
   margin: 68px 0 68px 0 !important;
 }
 
-.dollar{
+.dollar {
   font: normal normal bold 125px/152px Montserrat;
-letter-spacing: 0px;
-color: #FFFFFF;
-padding: 55px 0 0 55px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding: 55px 0 0 55px;
 }
 
-.numberbtn{
-  border-radius: 44px;
-    background: #464544;
+.numberbtn {
+  border-radius: 44px !important;
+  background: #464544 !important;
+}
+
+.navbarBg {
+  background-color: unset !important;
+  padding-top: 55px !important;
+}
+
+.navlinkfont {
+  font: normal normal 600 32px/39px Montserrat;
+  color: #ffb027 !important;
+}
+
+.logoDiv {
+  top: 35px;
+  position: absolute;
+}
+
+@media (min-width: 992px) {
+  .usps {
+    right: 300px;
+    position: absolute;
+  }
+
+  .pricing {
+    right: 130px;
+    position: absolute;
+  }
+
+  .cart {
+    right: 0px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .toogleButton {
+    background-color: orange !important;
+    position: absolute;
+    right: 0px;
+    top: 48px;
+  }
 }

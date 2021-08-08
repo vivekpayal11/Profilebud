@@ -7,7 +7,7 @@ const ApiCard = () => {
         <div class="card-body">
           <h5 class="card-title apiCardTitle">NUMBER OF ACCOUNTS</h5>
           <p class="card-text apiCardBody">
-            <input 
+            <input
               type="text"
               className="form-control numberbtn"
               placeholder="ENTER NUMBER HERE"

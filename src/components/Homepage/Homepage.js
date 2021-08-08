@@ -22,64 +22,75 @@ const Hompage = () => {
         <img src={Group16} className="getlead" alt="Group16" />
       </div>
       <div className="container">
-        <div class="row" >
-        
+        <div class="row">
           <div className="col-xs-6 col-sm-6 col-sm-offset-4">
-          <Card
-           color1="#FF1111"
-           color2="#FF8000"
-            title="Followers / Following of @any_user"
-            body="Lorem Ipsum something is there. Something more will come here. Oh yes it will come."
-            btn="SAMPLE DATA"
-          />
-           </div>
+            <Card
+              color1="#FF1111"
+              color2="#FF8000"
+              title="Followers / Following of @any_user"
+              body="Lorem Ipsum something is there. Something more will come here. Oh yes it will come."
+              btn="SAMPLE DATA"
+            />
+          </div>
           <div className="col-xs-6 col-sm-6">
-          <Card className="card2"
-            color1="#00D4FF"
-            color2="#005DFF"
-            title="Liker / Commenter of any post"
-            body="Lorem Ipsum something is there. Something more will come here. Oh yes it will come."
-            btn="SAMPLE DATA"
-          />
+            <Card
+              className="card2"
+              color1="#00D4FF"
+              color2="#005DFF"
+              title="Liker / Commenter of any post"
+              body="Lorem Ipsum something is there. Something more will come here. Oh yes it will come."
+              btn="SAMPLE DATA"
+            />
           </div>
         </div>
-        <div class="row card2" >
-        <div className="col-xs-6  col-sm-6 ">
-          <Card
-           color1="#00FF6F"
-           color2="#00FFC2"
-            title="People Posting Specific #Hashtags"
-            body="Lorem Ipsum something is there. Something more will come here. Oh yes it will come."
-            btn="SAMPLE DATA"
-          />
+        <div class="row card2">
+          <div className="col-xs-6  col-sm-6 ">
+            <Card
+              color1="#00FF6F"
+              color2="#00FFC2"
+              title="People Posting Specific #Hashtags"
+              body="Lorem Ipsum something is there. Something more will come here. Oh yes it will come."
+              btn="SAMPLE DATA"
+            />
           </div>
-            <div className="col-xs-6  col-sm-6 ">
-          <Card
-           color1="#A011FF"
-           color2="#5D00FF"
-            title="People Posting at Specific Locations"
-            body="Lorem Ipsum something is there. Something more will come here. Oh yes it will come."
-            btn="SAMPLE DATA"
-          />
+          <div className="col-xs-6  col-sm-6 ">
+            <Card
+              color1="#A011FF"
+              color2="#5D00FF"
+              title="People Posting at Specific Locations"
+              body="Lorem Ipsum something is there. Something more will come here. Oh yes it will come."
+              btn="SAMPLE DATA"
+            />
           </div>
         </div>
       </div>
       <div class="row noOfAccountRow">
-      <div className="col-xs-6  col-sm-6 ">
-        <ApiCard/>
+        <div className="col-xs-6  col-sm-6 ">
+          <ApiCard />
         </div>
         <div className="col-xs-6  col-sm-6 ">
-       <p className="bottomTest"> TRY IT FREE <br/><br/>
-         Pay As You Go Rates<br/>
-         Emails Price per email<br/>
-          up to 10,000 $0.008<br/>
-           up to 100,000 $0.005<br/>
-            up to 250,000 $0.004 <br/>
-             up to 1,000,000 $0.003 <br/><br/>
-        Enterprise Packages <br/>
-        over 1,000,000<br/><br/>
-         Contact Us <br/><br/>
-        LEARN MORE ABOUT ENTERPRISE</p>
+          <p className="bottomTest">
+            {" "}
+           <p style={{    color: "orange"}}>TRY IT FREE</p> 
+            
+           <p style={{font:" normal normal bold 28px/34px Montserrat"}}>Pay As You Go Rates</p> 
+           
+            Emails Price per email
+            <br />
+            up to 10,000 $0.008
+            <br />
+            up to 100,000 $0.005
+            <br />
+            up to 250,000 $0.004 <br />
+            up to 1,000,000 $0.003 <br />
+            <br />
+           <p style={{font:" normal normal bold 28px/34px Montserrat"}}> Enterprise Packages</p> <br />
+            over 1,000,000 <br/> <br/>
+           
+            <p style={{  font: "normal normal 600 28px/34px Montserrat",  color: "orange"}}>Contact Us</p>
+          
+            <p style={{ font: "normal normal bold 28px/34px Montserrat",   color: "orange"}}>LEARN MORE ABOUT ENTERPRISE</p>
+          </p>
         </div>
       </div>
     </div>
